@@ -9,7 +9,7 @@ functype = ['TIME_SERIES_DAILY', 'TIME_SERIES_DAILY_ADJUSTED', 'TIME_SERIES_WEEK
             'TIME_SERIES_MONTHLY', 'TIME_SERIES_MONTHLY_ADJUSTED']
 
 symbol = 'TSLA'
-apikey = 'UAQTU7VRCE6C15QE'
+apikey = '###########'
 url = 'https://www.alphavantage.co/query?function={0}&symbol={1}&apikey={2}'.format(functype[idx], symbol, apikey)
 timetype = ["Time Series (Daily)", "Weekly Time Series", "Weekly Adjusted Time Series", "Monthly Time Series",
             "Monthly Adjusted Time Series"]
